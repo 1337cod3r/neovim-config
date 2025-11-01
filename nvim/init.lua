@@ -1,0 +1,8 @@
+require("options")
+require("keymaps")
+require("plugins")
+require("colorscheme")
+require("colormypencils")
+require("treesitter")
+require("lsp")
+require("lsp_keymaps")
