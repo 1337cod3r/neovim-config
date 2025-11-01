@@ -65,6 +65,7 @@ require("lazy").setup({
 				"bashls",
 				"html",
 				"cssls",
+				"zls",
 			}
 		}
 	},
@@ -162,6 +163,12 @@ require("lazy").setup({
 	{
 		"folke/lazydev.nvim",
 		opts = {},
+	},
+
+	{
+		"windwp/nvim-autopairs",
+		config = true,
+		event = "InsertEnter",
 	},
 
 })
